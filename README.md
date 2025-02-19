@@ -1,16 +1,16 @@
 # Stock-Analysis
 
 ## Overview
-This project consists of two parts, focusing on analyzing financial data and using machine learning to predict stock prices for asset management companies. The goal is to derive insights from financial statements, implement predictive models, and compare machine learning predictions with traditional Discounted Cash Flow (DCF) valuations.
+This project consists of two parts, focusing on analyzing financial data and using machine learning to predict stock prices for the top 3 investment banking : Goldman Sachs, JP Morgan, and Morgan Stanley. The goal is to derive insights from financial statements, implement predictive models, and compare machine learning predictions with traditional Discounted Cash Flow (DCF) valuations.
 
 ---
 
 ## Project Breakdown
 
 ### Part 1: Correlation Analysis of Income Statement Factors
-- **Objective**: Analyze the relationships between various factors in the income statements of asset management companies to understand their impact on financial performance and stock prices.
+- **Objective**: Analyze the relationships between various factors in the income statements of top 3 investment banks to understand their impact on financial performance and stock prices.
 - **Key Tasks**:
-  - Collect and preprocess financial data for selected asset management companies.
+  - Collect and preprocess financial data for selected companies.
   - Perform statistical correlation analysis to identify significant financial indicators.
   - Visualize relationships between income statement factors and stock prices.
 - **Deliverables**:
@@ -18,7 +18,7 @@ This project consists of two parts, focusing on analyzing financial data and usi
   - Correlation matrices and visualizations of significant relationships.
 
 ### Part 2: Predicting Stock Prices and Comparing Methods
-- **Objective**: Build machine learning models (LSTM) to predict stock prices for asset management companies and compare the results with DCF valuations.
+- **Objective**: Build machine learning models (LSTM) to predict stock prices and compare the results with DCF valuations.
 - **Key Tasks**:
   - Use DCF to calculate the intrinsic value of stocks.
   - Train and evaluate LSTM models using historical stock price data.
@@ -33,7 +33,7 @@ This project consists of two parts, focusing on analyzing financial data and usi
 ## Project Life Cycle
 
 ### 1. Problem Definition
-- **Part 1**: Identify key financial factors that influence stock prices for asset management companies.
+- **Part 1**: Identify key financial factors that influence stock prices for investment banks.
 - **Part 2**: Compare DCF and ML (LSTM) approaches for stock price prediction.
 - **Deliverables**:
   - Evaluation metrics for both parts (e.g., correlation coefficients for Part 1, RMSE/MAPE for Part 2).
