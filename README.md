@@ -1,4 +1,4 @@
-# Stock-Analysis
+# Stock Prediction LSTM Project
 
 ## Overview
 This project consists of two parts, focusing on analyzing financial data and using machine learning to predict stock prices for the top 3 investment banking : Goldman Sachs, JP Morgan, and Morgan Stanley. The goal is to derive insights from financial statements, implement predictive models, and compare machine learning predictions with traditional Discounted Cash Flow (DCF) valuations.
