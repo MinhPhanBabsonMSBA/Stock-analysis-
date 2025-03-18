@@ -3,6 +3,11 @@
 The **Stock Analytics Dashboard** is a comprehensive tool built using Streamlit, designed to provide users with a wide range of stock market analysis capabilities. From fundamental and technical analysis to portfolio simulation and optimization, this dashboard is a one-stop solution for investors and traders looking to make data-driven decisions.  
 
 ---
+##  Demo Video
+
+[![Watch the video]()](https://youtu.be/qGxx_UxXFOo?si=-ytF-qxe0LXk18zL)
+
+
 
 ##  Features  
 
@@ -11,7 +16,9 @@ The **Stock Analytics Dashboard** is a comprehensive tool built using Streamlit,
 - **Estimated Stock Price:** Calculate the estimated stock price based on EPS and P/E Ratio.  
 - **Stock Price with Moving Averages:** Visualize stock prices with 20-day and 50-day Simple Moving Averages (SMA).  
 - **RSI Indicator:** Analyze the Relative Strength Index (RSI) to gauge momentum.  
-- **Dividend History:** Explore dividend payouts over time with interactive visualizations.  
+- **Dividend History:** Explore dividend payouts over time with interactive visualizations.
+
+  
 
 ### Portfolio Simulation (Equal Weighted Method)  
 - **Portfolio Performance:** Track the cumulative returns of a portfolio with equal-weighted assets.  
