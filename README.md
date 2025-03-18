@@ -3,10 +3,7 @@
 The **Stock Analytics Dashboard** is a comprehensive tool built using Streamlit, designed to provide users with a wide range of stock market analysis capabilities. From fundamental and technical analysis to portfolio simulation and optimization, this dashboard is a one-stop solution for investors and traders looking to make data-driven decisions.  
 
 ---
-##  Demo Video
-
-[!Demo Run]()](https://youtu.be/qGxx_UxXFOo?si=-ytF-qxe0LXk18zL)
-
+##  [Demo Video](https://youtu.be/qGxx_UxXFOo?si=-ytF-qxe0LXk18zL)
 
 
 ##  Features  
