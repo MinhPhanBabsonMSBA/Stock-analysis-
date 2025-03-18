@@ -9,6 +9,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense
 from sklearn.metrics import r2_score
 from scipy.optimize import minimize
+import requests
 
 # Helper function to compute MAPE
 def MAPE(y_true, y_pred):
