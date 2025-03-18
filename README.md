@@ -17,8 +17,9 @@ The **Stock Analytics Dashboard** is a comprehensive tool built using Streamlit,
 - **Stock Price with Moving Averages:** Visualize stock prices with 20-day and 50-day Simple Moving Averages (SMA).  
 - **RSI Indicator:** Analyze the Relative Strength Index (RSI) to gauge momentum.  
 - **Dividend History:** Explore dividend payouts over time with interactive visualizations.
-
   
+![Dashboard Preview]( https://github.com/MinhPhanBabsonMSBA/Stock-analysis-/blob/main/demo%201.png)
+![Dashboard Preview](https://github.com/MinhPhanBabsonMSBA/Stock-analysis-/blob/main/demo%202.png)
 
 ### Portfolio Simulation (Equal Weighted Method)  
 - **Portfolio Performance:** Track the cumulative returns of a portfolio with equal-weighted assets.  
@@ -26,10 +27,15 @@ The **Stock Analytics Dashboard** is a comprehensive tool built using Streamlit,
 - **Portfolio Metrics:** Calculate key metrics such as average annual return, Sharpe Ratio, Treynor Ratio, and Information Ratio.  
 - **Comparison to S&P 500:** Benchmark your portfolio's performance against the S&P 500.  
 
+![Dashboard Preview](https://github.com/MinhPhanBabsonMSBA/Stock-analysis-/blob/main/demo%203.png)
+![Dashboard Preview](https://github.com/MinhPhanBabsonMSBA/Stock-analysis-/blob/main/demo%204.png)
+
 ### LSTM Prediction (Demo)  
 - **Stock Price Prediction:** Use Long Short-Term Memory (LSTM) neural networks to predict future stock prices.  
 - **Model Customization:** Adjust model parameters such as look-back period, epochs, batch size, and LSTM layers.  
 - **Performance Metrics:** Evaluate the model's performance using R² Score, MAPE, and Accuracy Rate.  
+
+![Dashboard Preview](https://github.com/MinhPhanBabsonMSBA/Stock-analysis-/blob/main/demo%205.png)
 
 ###  Portfolio Optimization  
 - **Optimal Asset Allocation:** Maximize the Sharpe ratio to find the best risk-adjusted portfolio.  
@@ -37,6 +43,12 @@ The **Stock Analytics Dashboard** is a comprehensive tool built using Streamlit,
 - **Portfolio Setup:** Input your budget and number of shares to calculate initial portfolio weights.  
 - **Optimization Results:** View optimized portfolio weights, expected annual return, annual volatility, and Sharpe ratio.  
 - **Visualizations:** Explore portfolio allocation through bar charts and pie charts.  
+
+
+![Dashboard Preview](https://github.com/MinhPhanBabsonMSBA/Stock-analysis-/blob/main/demo%206.png)
+![Dashboard Preview](https://github.com/MinhPhanBabsonMSBA/Stock-analysis-/blob/main/demo%207.png)
+![Dashboard Preview](https://github.com/MinhPhanBabsonMSBA/Stock-analysis-/blob/main/demo%208.png)
+![Dashboard Preview](https://github.com/MinhPhanBabsonMSBA/Stock-analysis-/blob/main/demo%209.png)
 
 ---
 
