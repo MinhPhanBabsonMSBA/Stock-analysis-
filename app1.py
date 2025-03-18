@@ -31,22 +31,38 @@ def prepare_data(data, look_back=5):
     return np.array(X), np.array(y)
 
 # Function to fetch portfolio data
-def fetch_portfolio_data(tickers, period="1y"):
-    portfolio_data = yf.download(tickers, period=period, progress=False)
-    portfolio_returns = pd.DataFrame()
-    for ticker in tickers:
-        portfolio_returns[ticker] = portfolio_data['Close'][ticker].pct_change().dropna()
-    return portfolio_returns
+session = requests.Session()
+session.headers.update({'User-Agent': 'Mozilla/5.0'})
 
-# Function to get current prices of assets
+def fetch_portfolio_data(tickers, period="1y"):
+    """Fetches stock data using yfinance with session headers."""
+    try:
+        portfolio_data = yf.download(tickers, period=period, progress=False, session=session)
+        if portfolio_data.empty:
+            raise ValueError("No data retrieved. Check ticker symbols.")
+        portfolio_returns = portfolio_data['Close'].pct_change().dropna()
+        return portfolio_returns
+    except Exception as e:
+        print(f"Error fetching portfolio data: {e}")
+        return pd.DataFrame()  # Return empty DataFrame on failure
+
 def get_current_prices(tickers):
+    """ Fetches the latest closing prices for tickers."""
     current_prices = {}
-    for ticker in tickers:
-        stock = yf.Ticker(ticker)
-        current_prices[ticker] = stock.history(period="1d")['Close'].iloc[-1]
+    try:
+        for ticker in tickers:
+            stock = yf.Ticker(ticker)
+            df = stock.history(period="1d", session=session)
+            if df.empty:
+                current_prices[ticker] = None
+            else:
+                current_prices[ticker] = df['Close'].iloc[-1]
+    except Exception as e:
+        print(f"Error fetching stock price for {ticker}: {e}")
+        current_prices[ticker] = None
     return current_prices
 
-# Functions for portfolio optimization using scipy.optimize
+# Functions for portfolio optimization using Scipy.optimize
 def portfolio_annualized_performance(weights, mean_returns, cov_matrix):
     """
     Calculate annualized return and volatility for a portfolio
