@@ -5,6 +5,8 @@ The **Stock Analytics Dashboard** is a comprehensive tool built using Streamlit,
 ---
 ##  [Demo Video](https://youtu.be/qGxx_UxXFOo?si=-ytF-qxe0LXk18zL)
 
+##  [Medium Post](https://medium.com/@phanm48/data-to-dollars-an-enthusiasts-journey-into-data-driven-finance-4cec9251d000)
+
 
 ##  Features  
 
